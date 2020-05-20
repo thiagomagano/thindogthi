@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Titulos  */
+.titulo-grande {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.titulo-secao {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.secao-colorida {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.secao-branca {
+  background-color: #fff;
+}
+
+/* navbar css */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* botoes de Download */
+.botao-dw {
+  margin: 5% 3% 5% 0;
+}
+
+/* imagem do topo */
+.imagem-topo {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features session */
+#features {
+  position: relative;
+}
+
+.box-feat {
+  text-align: center;
+  padding: 4.5%
+}
+
+.h-feat {
+  font-size: 1.5rem;
+}
+
+.icon-feat {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-feat:hover {
+  color: #ff4c68
+}
+
+/* seção das testemunhas */
+#testimonials {
+  background-color: #ef8172;
+}
+.text-testemunha{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.imagem-testemunha {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* seção dos preços */
+#pricing {
+  padding: 100px;
+}
+
+.coluna-preco {
+  padding: 3% 2%;
+}
+
+.texto-preco{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.footer-link {
+  margin: 20px 10px;
+  color: #111;
+}
+
+.footer-p{
+  margin: 20px;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    text-align: center;
+  }
+
+  .imagem-topo {
+    position: static;
+    transform: rotate(0);
+    margin: 10px 100px 10px;
+  }
+}
